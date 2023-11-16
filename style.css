@@ -14,12 +14,12 @@
 
 @font-face {
   font-family: raleway-c;
-  src: url(../fonts/raleway-regular.woff2);
+  src: url(fonts/raleway-regular.woff2);
 }
 
 @font-face {
   font-family: outfir-c;
-  src: url(../fonts/outfit-regular.woff2);
+  src: url(fonts/outfit-regular.woff2);
 }
 
 h1,
