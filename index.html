@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/png">
+  <script src="./libs/gsap/gsap.min.js" defer></script>
+  <script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
+  <script src="./app.js" defer></script>
+  <title>JS Projects by Sasha Kravets</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <header class="hero-section">
+        <img data-lag=".5" data-speed=".6" src="media/js-picture.png" alt="JavaScript picture" class="hero">
+        <div class="container">
+          <div data-speed=".75" class="main-header">
+            <h1 class="main-title">javascript projects <span>by Sasha Kravets</span></h1>
+          </div>
+        </div>
+      </header>
+
+      <div class="portfolio">
+        <div class="container">
+          <main class="gallery">
+            <div data-speed=".9" class="gallery__left">
+              <a class="gallery__item" href="https://sasha-kravets.github.io/js-ai-image-generator/" target="_blank">
+                <img class="gallery__item-media" src="media/work/images-generator.gif" alt="Custom Video Player project">
+              </a>
+
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">OpenAI API | Chatbot</h2>
+                <p class="text-block__p">You can click on the image to check how it works and view the source code.</p>
+              </div>
+
+              <a class="gallery__item" href="https://sasha-kravets.github.io/js-custom-video-player/" target="_blank">
+                <img class="gallery__item-media" src="media/work/custom-video-player.png" alt="Custom Video Player project">
+              </a>
+
+              <a class="gallery__item" href="https://sasha-kravets.github.io/js-3d-animation/" target="_blank">
+                <img class="gallery__item-media" src="media/work/3d-animation.png" alt="JavaScript 3D Animation project">
+              </a>
+            </div>
+            <div data-speed="1.1" class="gallery__right">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">OpenAI API | Images Generator</h2>
+                <p class="text-block__p">You can click on the image to check how it works and view the source code.</p>
+              </div>
+
+              <a class="gallery__item" href="https://sasha-kravets.github.io/js-chatgpt-api/" target="_blank">
+                <img class="gallery__item-media" src="media/work/chatbot.gif" alt="Custom Video Player project">
+              </a>
+
+              <a class="gallery__item" href="https://sasha-kravets.github.io/js-google-map-api/" target="_blank">
+                <img class="gallery__item-media" src="media/work/google-maps-api.png" alt="Google Maps API project">
+              </a>
+
+              <a class="gallery__item" href="https://sasha-kravets.github.io/js-language-translator/" target="_blank">
+                <img class="gallery__item-media" src="media/work/language-translator.png" alt="Language translator project">
+              </a>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <div class="description">Created with GSAP ScrollTrigger and ScrollSmoother.</div>
+    </div>
+  </div>
+</body>
+</html>
